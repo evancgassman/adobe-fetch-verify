@@ -2,18 +2,25 @@
 A simple NodeJS module that checks an email's inbox for a verification code sent by Adobe Services.
 
 ## Install for NodeJS
-```js
+```css
 npm install adobe-fetch-verify
 ```
 
 ## Usage and Functions
-```js
+```css
 fetch(example@example.com, password, options);
 ```
+## Important Notes and Support
 
-##Example
+- **For most email services, you will be required to turn IMAP access on!**
+- **Services like GMAIL will require you to enable 2-Factor Authorization, and create an "App Password".** 
+- **Supported Email Services: ✔️ GMAIL, ✔️YAHOO, ✔️OUTLOOK.
+
+❤️ If you require any assistance, feel free to join <a href="https://discord.gg/y6UywbeB3U">my support Discord!</a>! ❤️
+
+## Example
 ```js
-const adobeVerify = require("./index.js");
+const adobeVerify = require("adobe-fetch-verify");
 
 async function mainHandler() {
     let options = {
@@ -29,5 +36,5 @@ async function mainHandler() {
 }
 
 mainHandler();
-``
+```
 
