@@ -5,6 +5,11 @@ A simple NodeJS module that checks an email's inbox for a verification code sent
 ```css
 npm install adobe-fetch-verify
 ```
+## What exactly is this for?
+This simple one-function NodeJS module connects your email account via IMAP, and scans for emails by Adobe, returning any emails containing a verification code. This is simply for educational purposes only, and by using this, you agree that I am not responsible for your actions. **An example email sent by Adobe:**
+
+![image](https://user-images.githubusercontent.com/102568007/227413659-b83aa859-11d9-4cef-946c-b8a0d9ddd338.png)
+
 
 ## Usage and Functions
 ```css
