@@ -14,11 +14,11 @@ fetch(example@example.com, password, options);
 
 - **For most email services, you will be required to turn IMAP access on!**
 - **Services like GMAIL will require you to enable 2-Factor Authorization, and create an "App Password".** 
-- **Supported Email Services: ✔️ GMAIL, ✔️YAHOO, ✔️OUTLOOK.
+- **Supported Email Services: ✔️ GMAIL, ✔️YAHOO, ✔️OUTLOOK.**
 
 ❤️ If you require any assistance, feel free to join <a href="https://discord.gg/y6UywbeB3U">my support Discord!</a>! ❤️
 
-## Example
+## Example with Annotations
 ```js
 const adobeVerify = require("adobe-fetch-verify");
 
