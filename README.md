@@ -12,7 +12,7 @@ This simple one-function NodeJS module connects your email account via IMAP, and
 
 
 ## Usage and Functions
-```css
+```
 fetch(example@example.com, password, options);
 ```
 ## Important Notes and Support
@@ -37,9 +37,18 @@ async function mainHandler() {
     };
 
     let codeList = await adobeVerify.fetch("example@gmail.com", "wgg3g2hh2h", options);
-    console.log(codeList);
+    console.log(codeList); 
+    /*
+      This will log an array of objects containing the properties "timestamp" and "code".
+      Example: [{code: "243631", timestamp: [ 'Thu, 23 Mar 2023 21:22:04 +0000' ]}, {code: "638211", timestamp: [ 'Thu, 21 Mar 2023 21:22:04 +0000' ]}]
+    */
 }
 
 mainHandler();
 ```
+
+## Support me and check out my other works!
+If you would love to support me and have the means necessary, check out https://ko-fi.com/evangassman!
+
+
 
