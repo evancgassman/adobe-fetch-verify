@@ -1,0 +1,29 @@
+{
+  "name": "adobe-fetch-verify",
+  "version": "1.0.0",
+  "description": "A simple NodeJS module that checks an email's inbox for a verification code sent by Adobe Services.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "adobe",
+    "email",
+    "verify",
+    "bot"
+  ],
+  "author": "Evan Gassman",
+  "license": "MIT",
+  "dependencies": {
+    "imap": "^0.8.19"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evancgassman/adobe-fetch-verify.git"
+  },
+  "bugs": {
+    "url": "https://github.com/evancgassman/adobe-fetch-verify/issues"
+  },
+  "homepage": "https://github.com/evancgassman/adobe-fetch-verify#readme"
+}
